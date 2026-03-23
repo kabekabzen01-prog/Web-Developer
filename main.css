@@ -1,0 +1,40 @@
+body {
+     font-family: Arial, sans-serif;
+    font-size: 22px;
+     background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #7bf0ff;
+    color: #fff;
+    gap: 1rem;
+}   
+#nav-list {
+    display: flex;
+    gap: 1rem;
+    list-style: flex dire-ction row;
+    list-style: none;
+}       
+
+table {
+    width: 50%;
+    margin: 0;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+            
+table th,
+table td {
+    border: 1px solid black;
+    padding: 0.5rem;
+    text-align: left;
+}   
+
+table th {
+    background-color: rgb(142, 142, 142);
+    color: #000000;
+}
